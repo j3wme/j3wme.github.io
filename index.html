@@ -71,6 +71,66 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-title：希尔排列" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/03/18/title%EF%BC%9A%E5%B8%8C%E5%B0%94%E6%8E%92%E5%88%97/" class="article-date">
+  <time class="dt-published" datetime="2021-03-18T11:59:26.935Z" itemprop="datePublished">2021-03-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><strong>title：希尔排列</strong></p>
+<p>void shell_sort(int arr[], int len)</p>
+<p> {<br>    int gap, i, j;<br>    int temp;<br>    for (gap = len &gt;&gt; 1; gap &gt; 0; gap &gt;&gt;= 1)<br>        for (i = gap; i &lt; len; i++) {<br>            temp = arr[i];<br>            for (j = i - gap; j &gt;= 0 &amp;&amp; arr[j] &gt; temp; j -= gap)<br>                arr[j + gap] = arr[j];<br>            arr[j + gap] = temp;<br>        }<br>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/03/18/title%EF%BC%9A%E5%B8%8C%E5%B0%94%E6%8E%92%E5%88%97/" data-id="ckmetnirh0000p8uq9y8t7ws1" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-title：插入排列" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/03/18/title%EF%BC%9A%E6%8F%92%E5%85%A5%E6%8E%92%E5%88%97/" class="article-date">
+  <time class="dt-published" datetime="2021-03-18T11:55:30.961Z" itemprop="datePublished">2021-03-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><strong>title</strong>：<strong>插入排列</strong></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">insertion_sort</span><span class="params">(<span class="keyword">int</span> arr[], <span class="keyword">int</span> len)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i,j,key;</span><br><span class="line">        <span class="keyword">for</span> (i=<span class="number">1</span>;i&lt;len;i++)&#123;</span><br><span class="line">                key = arr[i];</span><br><span class="line">                j=i<span class="number">-1</span>;</span><br><span class="line">                <span class="keyword">while</span>((j&gt;=<span class="number">0</span>) &amp;&amp; (arr[j]&gt;key))</span><br><span class="line">                &#123;</span><br><span class="line">                        arr[j+<span class="number">1</span>] = arr[j];</span><br><span class="line">                        j--;</span><br><span class="line">                &#125;</span><br><span class="line">                arr[j+<span class="number">1</span>] = key;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/03/18/title%EF%BC%9A%E6%8F%92%E5%85%A5%E6%8E%92%E5%88%97/" data-id="ckmetnirw0001p8uq0yq7cl9x" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-冒泡排列" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/03/17/%E5%86%92%E6%B3%A1%E6%8E%92%E5%88%97/" class="article-date">
@@ -246,6 +306,14 @@
       <ul>
         
           <li>
+            <a href="/2021/03/18/title%EF%BC%9A%E5%B8%8C%E5%B0%94%E6%8E%92%E5%88%97/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/03/18/title%EF%BC%9A%E6%8F%92%E5%85%A5%E6%8E%92%E5%88%97/">(no title)</a>
+          </li>
+        
+          <li>
             <a href="/2021/03/17/%E5%86%92%E6%B3%A1%E6%8E%92%E5%88%97/">(no title)</a>
           </li>
         
@@ -255,10 +323,6 @@
         
           <li>
             <a href="/2021/03/16/linklist/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2021/03/13/hello-world/">Hello World</a>
           </li>
         
       </ul>

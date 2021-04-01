@@ -136,40 +136,6 @@
 <!-- Table of Contents -->
 
   
-    <article id="post-title：希尔排列"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-    <div class="article-meta">
-      
-	<a href="/2021/03/18/title%EF%BC%9A%E5%B8%8C%E5%B0%94%E6%8E%92%E5%88%97/" class="article-date">
-	  <time datetime="2021-03-18T11:59:26.935Z" itemprop="datePublished">March 18, 2021</time>
-	</a>
-
-       
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><strong>title：希尔排列</strong></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shell_sort</span><span class="params">(<span class="keyword">int</span> arr[], <span class="keyword">int</span> len)</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> gap, i, j;</span><br><span class="line">    <span class="keyword">int</span> temp;</span><br><span class="line">    <span class="keyword">for</span> (gap = len &gt;&gt; <span class="number">1</span>; gap &gt; <span class="number">0</span>; gap &gt;&gt;= <span class="number">1</span>)</span><br><span class="line">        <span class="keyword">for</span> (i = gap; i &lt; len; i++) &#123;</span><br><span class="line">            temp = arr[i];</span><br><span class="line">            <span class="keyword">for</span> (j = i - gap; j &gt;= <span class="number">0</span> &amp;&amp; arr[j] &gt; temp; j -= gap)</span><br><span class="line">                arr[j + gap] = arr[j];</span><br><span class="line">            arr[j + gap] = temp;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
     <article id="post-title：插入排列"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
@@ -477,18 +443,6 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2021/03/18/title%EF%BC%9A%E5%B8%8C%E5%B0%94%E6%8E%92%E5%88%97/">(no title)</a></h6>
-              <span>March 18, 2021</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
               <h6 style="margin: 0;"><a href="/2021/03/18/title%EF%BC%9A%E6%8F%92%E5%85%A5%E6%8E%92%E5%88%97/">(no title)</a></h6>
               <span>March 18, 2021</span>
             </div>
@@ -531,6 +485,18 @@
 
           </li>
         
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
+              <h6 style="margin: 0;"><a href="/2021/03/13/hello-world/">Hello World</a></h6>
+              <span>March 13, 2021</span>
+            </div>
+
+          </li>
+        
       </ul>
     </div>
   </div>
@@ -549,7 +515,7 @@
     <h3 class="widget-title">Archives</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">March 2021</a><span class="archive-list-count">7</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">March 2021</a><span class="archive-list-count">6</span></li></ul>
     </div>
   </div>
 
